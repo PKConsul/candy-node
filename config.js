@@ -10,13 +10,13 @@ var config = {
 	// HTTP-Bind settings
 	http_bind: {
 		host: 'dev.openflex.net',
-		port: 5280,
+		port: 80,
 		path: '/candy/http-bind/'
 	},
 	// App setting
 	app: {
-		port: process.env.OPENSHIFT_INTERNAL_PORT,
-		hostname: process.env.OPENSHIFT_INTERNAL_IP
+		port: process.env.OPENSHIFT_INTERNAL_PORT || 8080,
+		hostname: process.env.OPENSHIFT_INTERNAL_IP || "localhost"
 	}
 };
 
