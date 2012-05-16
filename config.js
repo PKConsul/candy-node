@@ -9,7 +9,7 @@ var config = {
 	},
 	// HTTP-Bind settings
 	http_bind: {
-		host: 'localhost',
+		host: 'demo.swissjabber.ch',
 		port: 5280,
 		path: '/http-bind/'
 	},
