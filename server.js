@@ -1,3 +1,4 @@
+#!/bin/env/node
 var config = require(__dirname + '/config'),
 	fs = require('fs'),
 	http = require('http'),
@@ -52,4 +53,4 @@ http.createServer(function (request, response) {
 		});		
 	}
 	
-}).listen(config.app.port);
+}).listen(config.app.port, config.app.hostname);

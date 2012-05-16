@@ -15,7 +15,8 @@ var config = {
 	},
 	// App setting
 	app: {
-		port: 80
+		port: process.env.OPENSHIFT_INTERNAL_PORT,
+		hostname: process.env.OPENSHIFT_INTERNAL_IP
 	}
 };
 
