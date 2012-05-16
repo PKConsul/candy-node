@@ -9,9 +9,9 @@ var config = {
 	},
 	// HTTP-Bind settings
 	http_bind: {
-		host: 'demo.swissjabber.ch',
+		host: 'dev.openflex.net',
 		port: 5280,
-		path: '/http-bind/'
+		path: '/candy/http-bind/'
 	},
 	// App setting
 	app: {
